@@ -19,7 +19,9 @@ def make_hero(
         money=None,
         inventory=None,
 ) -> dict:
-
+    """
+    Возвращает словарь - персонажа игры
+    """
     if not name:
         name = choice(first_names) + " " + choice(last_names)
 
